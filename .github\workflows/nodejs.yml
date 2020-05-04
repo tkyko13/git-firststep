@@ -41,8 +41,8 @@ jobs:
       # git addとgit commitをする
       - name: Commit files
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "tkyk.o13@gmail.com"
+          git config --local user.name "tkyko13"
           git add .
           git commit -m "Add changes" -a
 
