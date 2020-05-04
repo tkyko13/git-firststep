@@ -1,12 +1,12 @@
-name: Backup test
-
-on:
-  push:
-    branches: [master]
+name: JSON UPDATE
 
 # on:
-#   schedule:
-#     - cron: "*/5 * * * *"
+#   push:
+#     branches: [master]
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
 # ここだけ変更++
 
 jobs:
