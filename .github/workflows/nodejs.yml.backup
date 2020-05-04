@@ -1,4 +1,4 @@
-name: JSON UPDATE
+name: Backup test
 
 on:
   push:
